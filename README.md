@@ -1,0 +1,2 @@
+# CS_TECH_SYS
+这是一个基于Qt的管控系统，mainwindows窗口，仅实现基本功能窗口录入和文件读取等
