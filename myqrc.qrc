@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>myqrc/main.png</file>
+        <file>myqrc/customer.png</file>
+        <file>myqrc/FILE.png</file>
+        <file>myqrc/QA.png</file>
+        <file>myqrc/Technical.png</file>
+        <file>myqrc/evection.png</file>
+        <file>myqrc/apply.png</file>
+        <file>myqrc/dealer.png</file>
+        <file>myqrc/case.png</file>
+        <file>myqrc/OperHelp.png</file>
+        <file>myqrc/closeFile.png</file>
+        <file>myqrc/openFile.png</file>
+        <file>myqrc/closeSys.png</file>
+        <file>myqrc/error.png</file>
+        <file>myqrc/msginfo.png</file>
+        <file>myqrc/warning.png</file>
+        <file>myqrc/www.png</file>
+    </qresource>
+    <qresource prefix="/File">
+        <file>File/operhelp.txt</file>
+    </qresource>
+</RCC>

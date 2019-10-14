@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myMainWindow</class>
+ <widget class="QMainWindow" name="myMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>myMainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="myqrc.qrc">
+    <normaloff>:/myqrc/main.png</normaloff>:/myqrc/main.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>19</y>
+      <width>651</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="EngineerBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/Technical.png</normaloff>:/myqrc/Technical.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="DealerBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/dealer.png</normaloff>:/myqrc/dealer.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="ApplyBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/apply.png</normaloff>:/myqrc/apply.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="TravelBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/evection.png</normaloff>:/myqrc/evection.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>技术员</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>经销商</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>申请单</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>差旅单</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="ResourceBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/FILE.png</normaloff>:/myqrc/FILE.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="Q_A_Bt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/QA.png</normaloff>:/myqrc/QA.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="ExampleBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/case.png</normaloff>:/myqrc/case.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="CustomerBt">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="myqrc.qrc">
+         <normaloff>:/myqrc/customer.png</normaloff>:/myqrc/customer.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>资源库</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>问答库</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>案例库</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="label_9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>楷体</family>
+         <pointsize>15</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>客户群</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="FileMenu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="openFileMenu"/>
+   </widget>
+   <widget class="QMenu" name="HelpMenu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="OperHelpAct"/>
+    <addaction name="WebsiteAct"/>
+   </widget>
+   <widget class="QMenu" name="OperMenu">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <addaction name="EngineerAct"/>
+    <addaction name="DealerAct"/>
+    <addaction name="ApplyAct"/>
+    <addaction name="TravelAct"/>
+    <addaction name="ResourceAct"/>
+    <addaction name="Q_A_Act"/>
+    <addaction name="CustomerAct"/>
+    <addaction name="ExampleAct"/>
+   </widget>
+   <addaction name="FileMenu"/>
+   <addaction name="OperMenu"/>
+   <addaction name="HelpMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="openFileMenu"/>
+   <addaction name="OperHelpAct"/>
+   <addaction name="CloseSysAct"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="openFileMenu">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/openFile.png</normaloff>:/myqrc/openFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="EngineerAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/Technical.png</normaloff>:/myqrc/Technical.png</iconset>
+   </property>
+   <property name="text">
+    <string>技术员</string>
+   </property>
+  </action>
+  <action name="DealerAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/dealer.png</normaloff>:/myqrc/dealer.png</iconset>
+   </property>
+   <property name="text">
+    <string>经销商</string>
+   </property>
+  </action>
+  <action name="ApplyAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/apply.png</normaloff>:/myqrc/apply.png</iconset>
+   </property>
+   <property name="text">
+    <string>申请单</string>
+   </property>
+  </action>
+  <action name="TravelAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/evection.png</normaloff>:/myqrc/evection.png</iconset>
+   </property>
+   <property name="text">
+    <string>差旅单</string>
+   </property>
+  </action>
+  <action name="ResourceAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/FILE.png</normaloff>:/myqrc/FILE.png</iconset>
+   </property>
+   <property name="text">
+    <string>资源库</string>
+   </property>
+  </action>
+  <action name="Q_A_Act">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/QA.png</normaloff>:/myqrc/QA.png</iconset>
+   </property>
+   <property name="text">
+    <string>问答库</string>
+   </property>
+  </action>
+  <action name="CustomerAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/customer.png</normaloff>:/myqrc/customer.png</iconset>
+   </property>
+   <property name="text">
+    <string>客户群</string>
+   </property>
+  </action>
+  <action name="OperHelpAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/OperHelp.png</normaloff>:/myqrc/OperHelp.png</iconset>
+   </property>
+   <property name="text">
+    <string>操作说明</string>
+   </property>
+  </action>
+  <action name="CloseSysAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/closeSys.png</normaloff>:/myqrc/closeSys.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出系统</string>
+   </property>
+   <property name="toolTip">
+    <string>退出系统</string>
+   </property>
+  </action>
+  <action name="ExampleAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/case.png</normaloff>:/myqrc/case.png</iconset>
+   </property>
+   <property name="text">
+    <string>案例库</string>
+   </property>
+  </action>
+  <action name="WebsiteAct">
+   <property name="icon">
+    <iconset resource="myqrc.qrc">
+     <normaloff>:/myqrc/www.png</normaloff>:/myqrc/www.png</iconset>
+   </property>
+   <property name="text">
+    <string>访问官网</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="myqrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
